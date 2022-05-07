@@ -1,11 +1,20 @@
 {
   "name": "react-boilerplate",
   "version": "0.1.0",
-  "description": "",
+  "description": "an React app build from zero configration.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/islamghany/react-boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/islamghany/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/islamghany/react-boilerplate#readme"
 }
