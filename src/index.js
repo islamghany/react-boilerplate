@@ -1,9 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "@babel/polyfill";
-import App from "./App";
-import "./style.css";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import '@babel/polyfill';
+import App from './App';
+import './style.css';
 
-const container = document.querySelector("#root");
+const container = document.querySelector('#root');
 const root = ReactDOM.createRoot(container);
 root.render(<App />);
