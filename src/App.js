@@ -1,6 +1,8 @@
-import React from "react";
-import { hot } from "react-hot-loader";
-const Warning = React.lazy(() => import("./Warning"));
+import React from 'react';
+import { hot } from 'react-hot-loader';
+import ff from './statics/1254705.jpg';
+
+const Warning = React.lazy(() => import('./Warning'));
 
 const App = () => {
   const [counter, setCounter] = React.useState(0);
@@ -14,6 +16,16 @@ const App = () => {
           <Warning />
         </React.Suspense>
       ) : null}
+
+      <div>
+        <img
+          src={'./statics/1254705.jpg'}
+          alt="hhh"
+          width="440px"
+          height="auto"
+        />
+        <img src={ff} alt="hhh" width="440px" height="auto" />
+      </div>
     </div>
   );
 };
