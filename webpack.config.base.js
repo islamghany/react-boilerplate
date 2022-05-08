@@ -6,18 +6,20 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     filename: 'app.bundle.js',
   },
-  // loaders : the code gets passed to the loader befor it get compiled with webpack
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         loader: 'babel-loader',
         exclude: /node_modules/,
         options: {},
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use: ['style-loader', 'css-loader', 'postcss-loader'],
         exclude: /node_modules/,
       },
       {
