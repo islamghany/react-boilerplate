@@ -6,6 +6,8 @@ const Warning = React.lazy(() => import('./Warning'));
 
 let x = 10;
 ley y= 20;
+
+let z = 22;
 const App = () => {
   const [counter, setCounter] = React.useState(0);
   return (
