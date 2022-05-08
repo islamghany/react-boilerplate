@@ -4,6 +4,7 @@ import ff from './statics/1254705.jpg';
 
 const Warning = React.lazy(() => import('./Warning'));
 
+let x = 10;
 const App = () => {
   const [counter, setCounter] = React.useState(0);
   return (
@@ -18,12 +19,6 @@ const App = () => {
       ) : null}
 
       <div>
-        <img
-          src={'./statics/1254705.jpg'}
-          alt="hhh"
-          width="440px"
-          height="auto"
-        />
         <img src={ff} alt="hhh" width="440px" height="auto" />
       </div>
     </div>
