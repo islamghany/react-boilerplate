@@ -2,4 +2,4 @@
 
 an React app build from zero configration.
 
-[javascript version](https://github.com/islamghany/react-boilerplate/tree/typescript-react)
+[javascript version](https://github.com/islamghany/react-boilerplate)
