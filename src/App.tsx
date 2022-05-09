@@ -1,10 +1,9 @@
 import React from 'react';
 import { hot } from 'react-hot-loader';
-
 const App = () => {
   return (
     <div className="min-h-screen  flex justify-center items-center">
-      <h1>React Boilerplate</h1>
+      <h1>React Boilerplate (Typescript)</h1>
     </div>
   );
 };
