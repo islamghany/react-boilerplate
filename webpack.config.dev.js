@@ -1,10 +1,11 @@
-const { merge } = require("webpack-merge");
+const { merge } = require('webpack-merge');
 
-const baseConfig = require("./webpack.config.base");
+const baseConfig = require('./webpack.config.base');
 module.exports = merge(baseConfig, {
-  mode: "development",
+  mode: 'development',
   devServer: {
     port: 3000,
+    historyApiFallback: true,
   },
-  devtool: "source-map",
+  devtool: 'inline-source-map',
 });
